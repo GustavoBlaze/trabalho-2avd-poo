@@ -1,0 +1,30 @@
+{
+  "name": "trabalho-2avd-poo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev -r tsconfig-paths/register --ignore-watch node_modules src/server.ts",
+    "typeorm": "ts-node-dev -r tsconfig-paths/register node_modules/typeorm/cli.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/node": "^8.0.29",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "ts-node": "3.3.0",
+    "ts-node-dev": "^1.1.6",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "3.3.3333"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.14.1",
+    "reflect-metadata": "^0.1.10",
+    "sqlite3": "^5.0.2",
+    "typeorm": "0.2.34",
+    "uuid": "^8.3.2"
+  }
+}
